@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCRegViewController.h"
+#import "SCLogInViewController.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

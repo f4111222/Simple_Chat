@@ -14,6 +14,34 @@
 		858CF6561B9074AB009A3941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858CF6551B9074AB009A3941 /* Images.xcassets */; };
 		858CF6591B9074AB009A3941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858CF6571B9074AB009A3941 /* LaunchScreen.xib */; };
 		858CF6651B9074AB009A3941 /* Simple_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 858CF6641B9074AB009A3941 /* Simple_ChatTests.m */; };
+		858CF6701B9074F4009A3941 /* SCChatTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 858CF66F1B9074F4009A3941 /* SCChatTableView.m */; };
+		8595A3091B936ECE006A9D49 /* SCLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595A3081B936ECE006A9D49 /* SCLogInViewController.m */; };
+		8595A30D1B937279006A9D49 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595A30C1B937279006A9D49 /* VPImageCropperViewController.m */; };
+		8595A3101B9377F5006A9D49 /* chat-send.png in Resources */ = {isa = PBXBuildFile; fileRef = 8595A30F1B9377F5006A9D49 /* chat-send.png */; };
+		8595A3121B93DF17006A9D49 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8595A3111B93DF17006A9D49 /* avatar.png */; };
+		85BC05861B90BC2E00101755 /* SCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05851B90BC2E00101755 /* SCChatViewController.m */; };
+		85BC058D1B91523D00101755 /* SCInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC058C1B91523D00101755 /* SCInfoViewController.m */; };
+		85BC05B01B915C7A00101755 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05901B915C7A00101755 /* MKAnnotationView+WebCache.m */; };
+		85BC05B11B915C7A00101755 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05921B915C7A00101755 /* NSData+ImageContentType.m */; };
+		85BC05B21B915C7A00101755 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05941B915C7A00101755 /* SDImageCache.m */; };
+		85BC05B31B915C7A00101755 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05961B915C7A00101755 /* SDWebImageCompat.m */; };
+		85BC05B41B915C7A00101755 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05981B915C7A00101755 /* SDWebImageDecoder.m */; };
+		85BC05B51B915C7A00101755 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC059A1B915C7A00101755 /* SDWebImageDownloader.m */; };
+		85BC05B61B915C7A00101755 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC059C1B915C7A00101755 /* SDWebImageDownloaderOperation.m */; };
+		85BC05B71B915C7A00101755 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC059E1B915C7A00101755 /* SDWebImageManager.m */; };
+		85BC05B81B915C7A00101755 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05A11B915C7A00101755 /* SDWebImagePrefetcher.m */; };
+		85BC05B91B915C7A00101755 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05A31B915C7A00101755 /* UIButton+WebCache.m */; };
+		85BC05BA1B915C7A00101755 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05A51B915C7A00101755 /* UIImage+GIF.m */; };
+		85BC05BB1B915C7A00101755 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05A71B915C7A00101755 /* UIImage+MultiFormat.m */; };
+		85BC05BC1B915C7A00101755 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05A91B915C7A00101755 /* UIImage+WebP.m */; };
+		85BC05BD1B915C7A00101755 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05AB1B915C7A00101755 /* UIImageView+HighlightedWebCache.m */; };
+		85BC05BE1B915C7A00101755 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05AD1B915C7A00101755 /* UIImageView+WebCache.m */; };
+		85BC05BF1B915C7A00101755 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05AF1B915C7A00101755 /* UIView+WebCacheOperation.m */; };
+		85BC070B1B915F6000101755 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85BC070A1B915F6000101755 /* 123.jpg */; };
+		85BC070E1B916B2D00101755 /* SCFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC070D1B916B2D00101755 /* SCFriendViewController.m */; };
+		85BC07111B916B4300101755 /* SCFriendTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC07101B916B4300101755 /* SCFriendTableView.m */; };
+		85BC07151B916DAD00101755 /* SCRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC07141B916DAD00101755 /* SCRegViewController.m */; };
+		9E002BEEA47BCA0E980DBA87 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AF16CFA9F8B18BD828A351 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AFBC19FAE01D2B11B2EA81A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		858CF6451B9074AB009A3941 /* Simple_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858CF6491B9074AB009A3941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858CF64A1B9074AB009A3941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +69,60 @@
 		858CF65E1B9074AB009A3941 /* Simple_ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Simple_ChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		858CF6631B9074AB009A3941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858CF6641B9074AB009A3941 /* Simple_ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_ChatTests.m; sourceTree = "<group>"; };
+		858CF66E1B9074F4009A3941 /* SCChatTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChatTableView.h; sourceTree = "<group>"; };
+		858CF66F1B9074F4009A3941 /* SCChatTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCChatTableView.m; sourceTree = "<group>"; };
+		8595A3071B936ECE006A9D49 /* SCLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLogInViewController.h; sourceTree = "<group>"; };
+		8595A3081B936ECE006A9D49 /* SCLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLogInViewController.m; sourceTree = "<group>"; };
+		8595A30B1B937279006A9D49 /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		8595A30C1B937279006A9D49 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		8595A30F1B9377F5006A9D49 /* chat-send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-send.png"; sourceTree = "<group>"; };
+		8595A3111B93DF17006A9D49 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		85BC05841B90BC2E00101755 /* SCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChatViewController.h; sourceTree = "<group>"; };
+		85BC05851B90BC2E00101755 /* SCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCChatViewController.m; sourceTree = "<group>"; };
+		85BC058B1B91523D00101755 /* SCInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCInfoViewController.h; sourceTree = "<group>"; };
+		85BC058C1B91523D00101755 /* SCInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCInfoViewController.m; sourceTree = "<group>"; };
+		85BC058F1B915C7A00101755 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		85BC05901B915C7A00101755 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		85BC05911B915C7A00101755 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		85BC05921B915C7A00101755 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		85BC05931B915C7A00101755 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		85BC05941B915C7A00101755 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		85BC05951B915C7A00101755 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		85BC05961B915C7A00101755 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		85BC05971B915C7A00101755 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		85BC05981B915C7A00101755 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		85BC05991B915C7A00101755 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		85BC059A1B915C7A00101755 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		85BC059B1B915C7A00101755 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		85BC059C1B915C7A00101755 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		85BC059D1B915C7A00101755 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		85BC059E1B915C7A00101755 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		85BC059F1B915C7A00101755 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		85BC05A01B915C7A00101755 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		85BC05A11B915C7A00101755 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		85BC05A21B915C7A00101755 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		85BC05A31B915C7A00101755 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		85BC05A41B915C7A00101755 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		85BC05A51B915C7A00101755 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		85BC05A61B915C7A00101755 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		85BC05A71B915C7A00101755 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		85BC05A81B915C7A00101755 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		85BC05A91B915C7A00101755 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		85BC05AA1B915C7A00101755 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		85BC05AB1B915C7A00101755 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		85BC05AC1B915C7A00101755 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		85BC05AD1B915C7A00101755 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		85BC05AE1B915C7A00101755 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		85BC05AF1B915C7A00101755 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		85BC070A1B915F6000101755 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 123.jpg; path = ../../123.jpg; sourceTree = "<group>"; };
+		85BC070C1B916B2D00101755 /* SCFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFriendViewController.h; sourceTree = "<group>"; };
+		85BC070D1B916B2D00101755 /* SCFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFriendViewController.m; sourceTree = "<group>"; };
+		85BC070F1B916B4300101755 /* SCFriendTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFriendTableView.h; sourceTree = "<group>"; };
+		85BC07101B916B4300101755 /* SCFriendTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFriendTableView.m; sourceTree = "<group>"; };
+		85BC07131B916DAD00101755 /* SCRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRegViewController.h; sourceTree = "<group>"; };
+		85BC07141B916DAD00101755 /* SCRegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRegViewController.m; sourceTree = "<group>"; };
+		A3FA882BB52844CB6C69BD7B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F9AF16CFA9F8B18BD828A351 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E002BEEA47BCA0E980DBA87 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +144,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C9DC2D4D9A8F3A6138ECDB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9AF16CFA9F8B18BD828A351 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		858CF63C1B9074AA009A3941 = {
 			isa = PBXGroup;
 			children = (
+				8595A30E1B9377F5006A9D49 /* image */,
 				858CF6471B9074AB009A3941 /* Simple_Chat */,
 				858CF6611B9074AB009A3941 /* Simple_ChatTests */,
 				858CF6461B9074AB009A3941 /* Products */,
+				87344C04F62ACA365E4FB662 /* Pods */,
+				7C9DC2D4D9A8F3A6138ECDB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +176,21 @@
 		858CF6471B9074AB009A3941 /* Simple_Chat */ = {
 			isa = PBXGroup;
 			children = (
+				85BC070A1B915F6000101755 /* 123.jpg */,
 				858CF64C1B9074AB009A3941 /* AppDelegate.h */,
 				858CF64D1B9074AB009A3941 /* AppDelegate.m */,
 				858CF64F1B9074AB009A3941 /* ViewController.h */,
 				858CF6501B9074AB009A3941 /* ViewController.m */,
+				85BC07131B916DAD00101755 /* SCRegViewController.h */,
+				85BC07141B916DAD00101755 /* SCRegViewController.m */,
+				8595A3071B936ECE006A9D49 /* SCLogInViewController.h */,
+				8595A3081B936ECE006A9D49 /* SCLogInViewController.m */,
+				85BC058B1B91523D00101755 /* SCInfoViewController.h */,
+				85BC058C1B91523D00101755 /* SCInfoViewController.m */,
+				85BC07121B916D2000101755 /* FriendList */,
+				85BC058A1B9151FD00101755 /* Chat */,
+				85BC058E1B915C7A00101755 /* SDWebImage */,
+				8595A30A1B937279006A9D49 /* VPImageCropper */,
 				858CF6521B9074AB009A3941 /* Main.storyboard */,
 				858CF6551B9074AB009A3941 /* Images.xcassets */,
 				858CF6571B9074AB009A3941 /* LaunchScreen.xib */,
@@ -119,6 +225,96 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8595A30A1B937279006A9D49 /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				8595A30B1B937279006A9D49 /* VPImageCropperViewController.h */,
+				8595A30C1B937279006A9D49 /* VPImageCropperViewController.m */,
+			);
+			path = VPImageCropper;
+			sourceTree = "<group>";
+		};
+		8595A30E1B9377F5006A9D49 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8595A3111B93DF17006A9D49 /* avatar.png */,
+				8595A30F1B9377F5006A9D49 /* chat-send.png */,
+			);
+			name = image;
+			path = Simple_Chat/image;
+			sourceTree = "<group>";
+		};
+		85BC058A1B9151FD00101755 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				858CF66E1B9074F4009A3941 /* SCChatTableView.h */,
+				858CF66F1B9074F4009A3941 /* SCChatTableView.m */,
+				85BC05841B90BC2E00101755 /* SCChatViewController.h */,
+				85BC05851B90BC2E00101755 /* SCChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		85BC058E1B915C7A00101755 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				85BC058F1B915C7A00101755 /* MKAnnotationView+WebCache.h */,
+				85BC05901B915C7A00101755 /* MKAnnotationView+WebCache.m */,
+				85BC05911B915C7A00101755 /* NSData+ImageContentType.h */,
+				85BC05921B915C7A00101755 /* NSData+ImageContentType.m */,
+				85BC05931B915C7A00101755 /* SDImageCache.h */,
+				85BC05941B915C7A00101755 /* SDImageCache.m */,
+				85BC05951B915C7A00101755 /* SDWebImageCompat.h */,
+				85BC05961B915C7A00101755 /* SDWebImageCompat.m */,
+				85BC05971B915C7A00101755 /* SDWebImageDecoder.h */,
+				85BC05981B915C7A00101755 /* SDWebImageDecoder.m */,
+				85BC05991B915C7A00101755 /* SDWebImageDownloader.h */,
+				85BC059A1B915C7A00101755 /* SDWebImageDownloader.m */,
+				85BC059B1B915C7A00101755 /* SDWebImageDownloaderOperation.h */,
+				85BC059C1B915C7A00101755 /* SDWebImageDownloaderOperation.m */,
+				85BC059D1B915C7A00101755 /* SDWebImageManager.h */,
+				85BC059E1B915C7A00101755 /* SDWebImageManager.m */,
+				85BC059F1B915C7A00101755 /* SDWebImageOperation.h */,
+				85BC05A01B915C7A00101755 /* SDWebImagePrefetcher.h */,
+				85BC05A11B915C7A00101755 /* SDWebImagePrefetcher.m */,
+				85BC05A21B915C7A00101755 /* UIButton+WebCache.h */,
+				85BC05A31B915C7A00101755 /* UIButton+WebCache.m */,
+				85BC05A41B915C7A00101755 /* UIImage+GIF.h */,
+				85BC05A51B915C7A00101755 /* UIImage+GIF.m */,
+				85BC05A61B915C7A00101755 /* UIImage+MultiFormat.h */,
+				85BC05A71B915C7A00101755 /* UIImage+MultiFormat.m */,
+				85BC05A81B915C7A00101755 /* UIImage+WebP.h */,
+				85BC05A91B915C7A00101755 /* UIImage+WebP.m */,
+				85BC05AA1B915C7A00101755 /* UIImageView+HighlightedWebCache.h */,
+				85BC05AB1B915C7A00101755 /* UIImageView+HighlightedWebCache.m */,
+				85BC05AC1B915C7A00101755 /* UIImageView+WebCache.h */,
+				85BC05AD1B915C7A00101755 /* UIImageView+WebCache.m */,
+				85BC05AE1B915C7A00101755 /* UIView+WebCacheOperation.h */,
+				85BC05AF1B915C7A00101755 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		85BC07121B916D2000101755 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				85BC070F1B916B4300101755 /* SCFriendTableView.h */,
+				85BC07101B916B4300101755 /* SCFriendTableView.m */,
+				85BC070C1B916B2D00101755 /* SCFriendViewController.h */,
+				85BC070D1B916B2D00101755 /* SCFriendViewController.m */,
+			);
+			name = FriendList;
+			sourceTree = "<group>";
+		};
+		87344C04F62ACA365E4FB662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AFBC19FAE01D2B11B2EA81A /* Pods.debug.xcconfig */,
+				A3FA882BB52844CB6C69BD7B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858CF6681B9074AB009A3941 /* Build configuration list for PBXNativeTarget "Simple_Chat" */;
 			buildPhases = (
+				1F0A06B3E6AD00D916A9D51B /* Check Pods Manifest.lock */,
 				858CF6411B9074AB009A3941 /* Sources */,
 				858CF6421B9074AB009A3941 /* Frameworks */,
 				858CF6431B9074AB009A3941 /* Resources */,
+				33543E4655D698B57F6B32F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +380,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 858CF63C1B9074AA009A3941;
 			productRefGroup = 858CF6461B9074AB009A3941 /* Products */;
@@ -199,8 +398,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8595A3121B93DF17006A9D49 /* avatar.png in Resources */,
+				85BC070B1B915F6000101755 /* 123.jpg in Resources */,
 				858CF6541B9074AB009A3941 /* Main.storyboard in Resources */,
 				858CF6591B9074AB009A3941 /* LaunchScreen.xib in Resources */,
+				8595A3101B9377F5006A9D49 /* chat-send.png in Resources */,
 				858CF6561B9074AB009A3941 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +416,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F0A06B3E6AD00D916A9D51B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33543E4655D698B57F6B32F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		858CF6411B9074AB009A3941 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				858CF6511B9074AB009A3941 /* ViewController.m in Sources */,
+				85BC05B71B915C7A00101755 /* SDWebImageManager.m in Sources */,
+				85BC07151B916DAD00101755 /* SCRegViewController.m in Sources */,
+				85BC05B21B915C7A00101755 /* SDImageCache.m in Sources */,
+				85BC07111B916B4300101755 /* SCFriendTableView.m in Sources */,
+				85BC05B61B915C7A00101755 /* SDWebImageDownloaderOperation.m in Sources */,
+				85BC05BF1B915C7A00101755 /* UIView+WebCacheOperation.m in Sources */,
+				858CF6701B9074F4009A3941 /* SCChatTableView.m in Sources */,
+				85BC05B91B915C7A00101755 /* UIButton+WebCache.m in Sources */,
+				85BC05B11B915C7A00101755 /* NSData+ImageContentType.m in Sources */,
+				85BC05B81B915C7A00101755 /* SDWebImagePrefetcher.m in Sources */,
+				85BC05B51B915C7A00101755 /* SDWebImageDownloader.m in Sources */,
 				858CF64E1B9074AB009A3941 /* AppDelegate.m in Sources */,
+				85BC05BC1B915C7A00101755 /* UIImage+WebP.m in Sources */,
+				85BC05BE1B915C7A00101755 /* UIImageView+WebCache.m in Sources */,
+				85BC05B41B915C7A00101755 /* SDWebImageDecoder.m in Sources */,
+				85BC070E1B916B2D00101755 /* SCFriendViewController.m in Sources */,
+				8595A30D1B937279006A9D49 /* VPImageCropperViewController.m in Sources */,
 				858CF64B1B9074AB009A3941 /* main.m in Sources */,
+				85BC05B01B915C7A00101755 /* MKAnnotationView+WebCache.m in Sources */,
+				85BC05B31B915C7A00101755 /* SDWebImageCompat.m in Sources */,
+				8595A3091B936ECE006A9D49 /* SCLogInViewController.m in Sources */,
+				85BC058D1B91523D00101755 /* SCInfoViewController.m in Sources */,
+				85BC05861B90BC2E00101755 /* SCChatViewController.m in Sources */,
+				85BC05BB1B915C7A00101755 /* UIImage+MultiFormat.m in Sources */,
+				85BC05BD1B915C7A00101755 /* UIImageView+HighlightedWebCache.m in Sources */,
+				85BC05BA1B915C7A00101755 /* UIImage+GIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +604,15 @@
 		};
 		858CF6691B9074AB009A3941 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AFBC19FAE01D2B11B2EA81A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Jacky/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Simple_Chat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +620,15 @@
 		};
 		858CF66A1B9074AB009A3941 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FA882BB52844CB6C69BD7B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Jacky/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Simple_Chat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +687,7 @@
 				858CF66A1B9074AB009A3941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		858CF66B1B9074AB009A3941 /* Build configuration list for PBXNativeTarget "Simple_ChatTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +696,7 @@
 				858CF66D1B9074AB009A3941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

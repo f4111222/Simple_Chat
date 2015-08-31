@@ -16,7 +16,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch.\
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    if (![[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"]) {
+        
+        SCRegViewController *vc = [[SCRegViewController alloc] init];
+        UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:vc];
+        self.window.rootViewController = navigation;
+    }
+    else{
+        SCLogInViewController *vc = [[SCLogInViewController alloc] init];
+        UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:vc];
+        self.window.rootViewController = navigation;
+    }
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
