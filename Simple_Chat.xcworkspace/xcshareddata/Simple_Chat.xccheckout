@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B18D652C-EC35-4D5D-ADCB-6592381B924B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Simple_Chat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58A6DF17E01A537BF2025C0E7BFD9FF7D62B727D</key>
+		<string>https://github.com/f4111222/Simple_Chat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Simple_Chat.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58A6DF17E01A537BF2025C0E7BFD9FF7D62B727D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/f4111222/Simple_Chat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58A6DF17E01A537BF2025C0E7BFD9FF7D62B727D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58A6DF17E01A537BF2025C0E7BFD9FF7D62B727D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Simple_Chat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

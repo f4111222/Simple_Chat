@@ -37,7 +37,6 @@
 		85BC05BD1B915C7A00101755 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05AB1B915C7A00101755 /* UIImageView+HighlightedWebCache.m */; };
 		85BC05BE1B915C7A00101755 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05AD1B915C7A00101755 /* UIImageView+WebCache.m */; };
 		85BC05BF1B915C7A00101755 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC05AF1B915C7A00101755 /* UIView+WebCacheOperation.m */; };
-		85BC070B1B915F6000101755 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85BC070A1B915F6000101755 /* 123.jpg */; };
 		85BC070E1B916B2D00101755 /* SCFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC070D1B916B2D00101755 /* SCFriendViewController.m */; };
 		85BC07111B916B4300101755 /* SCFriendTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC07101B916B4300101755 /* SCFriendTableView.m */; };
 		85BC07151B916DAD00101755 /* SCRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BC07141B916DAD00101755 /* SCRegViewController.m */; };
@@ -56,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		0AFBC19FAE01D2B11B2EA81A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		85636F711B957244003A0F51 /* SCRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRegViewController.h; sourceTree = "<group>"; };
 		858CF6451B9074AB009A3941 /* Simple_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858CF6491B9074AB009A3941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858CF64A1B9074AB009A3941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,12 +114,10 @@
 		85BC05AD1B915C7A00101755 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		85BC05AE1B915C7A00101755 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		85BC05AF1B915C7A00101755 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		85BC070A1B915F6000101755 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 123.jpg; path = ../../123.jpg; sourceTree = "<group>"; };
 		85BC070C1B916B2D00101755 /* SCFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFriendViewController.h; sourceTree = "<group>"; };
 		85BC070D1B916B2D00101755 /* SCFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFriendViewController.m; sourceTree = "<group>"; };
 		85BC070F1B916B4300101755 /* SCFriendTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFriendTableView.h; sourceTree = "<group>"; };
 		85BC07101B916B4300101755 /* SCFriendTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFriendTableView.m; sourceTree = "<group>"; };
-		85BC07131B916DAD00101755 /* SCRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRegViewController.h; sourceTree = "<group>"; };
 		85BC07141B916DAD00101755 /* SCRegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRegViewController.m; sourceTree = "<group>"; };
 		A3FA882BB52844CB6C69BD7B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F9AF16CFA9F8B18BD828A351 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,12 +174,11 @@
 		858CF6471B9074AB009A3941 /* Simple_Chat */ = {
 			isa = PBXGroup;
 			children = (
-				85BC070A1B915F6000101755 /* 123.jpg */,
 				858CF64C1B9074AB009A3941 /* AppDelegate.h */,
 				858CF64D1B9074AB009A3941 /* AppDelegate.m */,
 				858CF64F1B9074AB009A3941 /* ViewController.h */,
 				858CF6501B9074AB009A3941 /* ViewController.m */,
-				85BC07131B916DAD00101755 /* SCRegViewController.h */,
+				85636F711B957244003A0F51 /* SCRegViewController.h */,
 				85BC07141B916DAD00101755 /* SCRegViewController.m */,
 				8595A3071B936ECE006A9D49 /* SCLogInViewController.h */,
 				8595A3081B936ECE006A9D49 /* SCLogInViewController.m */,
@@ -399,7 +396,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8595A3121B93DF17006A9D49 /* avatar.png in Resources */,
-				85BC070B1B915F6000101755 /* 123.jpg in Resources */,
 				858CF6541B9074AB009A3941 /* Main.storyboard in Resources */,
 				858CF6591B9074AB009A3941 /* LaunchScreen.xib in Resources */,
 				8595A3101B9377F5006A9D49 /* chat-send.png in Resources */,
